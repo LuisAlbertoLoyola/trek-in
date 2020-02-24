@@ -1,0 +1,123 @@
+.price-container {
+    display: flex;
+    width: 100%;
+}
+
+.prices {
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    background-color: $onyx;
+}
+
+
+.card-container {
+   
+
+}
+
+
+.prices-title {
+    color: $white;
+    padding-bottom: 30px;
+}
+
+.bg-price {
+    position: absolute;
+    width: 100%;
+}
+
+.price-card-bg {
+    width: 100%;
+    background-color: $onyx;
+ }
+
+#card1 {
+    margin: auto;
+    margin-bottom: 40px;
+    width: 350px;
+    height: 500px;
+    background-color: $white;
+    padding: 30px;
+}
+
+#card2 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 350px;
+    height: 500px;
+    background-color: $white;
+    padding: 30px;
+}
+
+.card-title {
+    text-align: left;
+    font-size: large;
+    color: $onyx;
+    font-weight: 400;
+}
+
+.card-price {
+    font-size: $xxx-large;
+    text-align: left;
+}
+
+.card-price2 {
+   font-size: $xxx-large;
+   text-align: left;
+}
+
+.card-features {
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.card-button1 {
+  padding-top: 90px;
+}
+
+.card-button2 {
+    padding-top: 20px;
+  }
+
+hr {
+    margin-top: 50px ;
+    height: 1px;
+    background-color: $silver-chalice;
+}
+
+
+@media (min-width:768px) {
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+.prices {
+    width: 100%;
+    background-color: $onyx;
+    margin-top: 260px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#card1 {
+    width: 350px;
+    height: 500px;
+    background-color: $white;
+    padding: 30px;
+}
+
+#card2 {
+    width: 350px;
+    height: 500px;
+    background-color: $white;
+    padding: 30px;
+}
+
+}

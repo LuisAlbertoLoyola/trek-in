@@ -1,0 +1,15 @@
+button {
+    font-size: $medium;
+    font-weight: 300;
+    padding: 10px 30px;
+    background-color: $ball-blue;
+    color: $white;
+    transition-duration: 0.4s;
+  }
+  
+  button:hover {
+    font-size: $medium;
+    font-weight: 300;
+    background-color: $dark-salmon;
+    color: white;
+  }
